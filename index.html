@@ -3,7 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CodeTube</title>
+    <title>CodeTube | Free Courses</title>
+
+
+    <meta property="og:title" content="Your Web Page Title">
+    <meta property="og:description" content="A concise description of your web page content.">
+    <meta property="og:image" content="https://raw.githubusercontent.com/mohitdebian/CodeTube/a49d50b9d237ce9afbe1595b13e95daa03edccbf/img/logo.svg">
+    <meta property="og:url" content="https://ninjatube.netlify.app">
+    <!-- Add more Open Graph meta tags as needed -->
+    
+    <!-- Fallback image for non-social media sharing -->
+    <meta property="og:image:secure_url" content="https://raw.githubusercontent.com/mohitdebian/CodeTube/a49d50b9d237ce9afbe1595b13e95daa03edccbf/img/logo.svg">
+    
+    <!-- Twitter card meta tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="CodeTube">
+    <meta name="twitter:description" content="CodeTube is a blazingly fast && highly- amusing way to level up your programming skills for free">
+    <meta name="twitter:image" content="https://raw.githubusercontent.com/mohitdebian/CodeTube/a49d50b9d237ce9afbe1595b13e95daa03edccbf/img/logo.svg">
+
+
     <link rel="icon" href="/img/logo.svg" type="image/x-icon" />
     <link href="https://fonts.cdnfonts.com/css/cubano" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -46,8 +64,12 @@
     <video controls src="/video.mp4"></video>
     <div class="main">
       <div class="content">
-        <button class="btn-green" style="cursor: pointer;" onclick="myCourse()">START WITH A COURSE</button>
-        <p class="blog" onclick="myblog()">Read our <span class="fireship-font">blog</span></p>
+        <button class="btn-green" style="cursor: pointer" onclick="myCourse()">
+          START WITH A COURSE
+        </button>
+        <p class="blog" onclick="myblog()">
+          Read our <span class="fireship-font">blog</span>
+        </p>
       </div>
       <!-- <div class="content">
         <button class="btn-green" onclick="myScript()">JavaScript</button>
@@ -74,6 +96,30 @@
       </p>
       <br /><br id="truth" />
     </div>
-    <p class="author" onclick="myblog()">Made by <span class="fireship-font">Mohit singh</span></p>
+    <div class="author-follow">
+      <p class="author" onclick="myblog()">
+        Made by <span class="fireship-font">Mohit singh</span>
+      </p>
+    </div>
+    <div id="bp-payment-button" class="btn-donate"></div>
+
+    <script src="https://confirmo.net/sdk/scripts/confirmo.js"></script>
+    <script type="text/javascript">
+      Confirmo.PaymentButton.initialize({
+        id: "bp-payment-button",
+        url: "https://confirmo.net",
+        buttonType: "DONATION",
+        paymentButtonId: "5ejD04L9xQNKYMd2LYxknZ7E3Bqvka8opwR",
+        values: {
+          merchantAmount: null,
+          merchantCurrency: null,
+          productName: "Donate Us",
+          reference: null,
+          overlay: true,
+        },
+      });
+    </script>
+
+<script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="mohitdebian" data-description="Support me on Buy me a coffee!" data-message="Donate to sustain free access for learners on our website." data-color="#FF5F5F" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
   </body>
 </html>
