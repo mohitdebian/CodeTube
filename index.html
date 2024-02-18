@@ -5,22 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CodeTube | Free Courses</title>
 
-
-    <meta property="og:title" content="Your Web Page Title">
-    <meta property="og:description" content="A concise description of your web page content.">
-    <meta property="og:image" content="https://raw.githubusercontent.com/mohitdebian/CodeTube/a49d50b9d237ce9afbe1595b13e95daa03edccbf/img/logo.svg">
-    <meta property="og:url" content="https://ninjatube.netlify.app">
+    <meta property="og:title" content="Your Web Page Title" />
+    <meta
+      property="og:description"
+      content="A concise description of your web page content."
+    />
+    <meta
+      property="og:image"
+      content="https://raw.githubusercontent.com/mohitdebian/CodeTube/a49d50b9d237ce9afbe1595b13e95daa03edccbf/img/logo.svg"
+    />
+    <meta property="og:url" content="https://ninjatube.netlify.app" />
     <!-- Add more Open Graph meta tags as needed -->
-    
-    <!-- Fallback image for non-social media sharing -->
-    <meta property="og:image:secure_url" content="https://raw.githubusercontent.com/mohitdebian/CodeTube/a49d50b9d237ce9afbe1595b13e95daa03edccbf/img/logo.svg">
-    
-    <!-- Twitter card meta tags -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="CodeTube">
-    <meta name="twitter:description" content="CodeTube is a blazingly fast && highly- amusing way to level up your programming skills for free">
-    <meta name="twitter:image" content="https://raw.githubusercontent.com/mohitdebian/CodeTube/a49d50b9d237ce9afbe1595b13e95daa03edccbf/img/logo.svg">
 
+    <!-- Fallback image for non-social media sharing -->
+    <meta
+      property="og:image:secure_url"
+      content="https://raw.githubusercontent.com/mohitdebian/CodeTube/a49d50b9d237ce9afbe1595b13e95daa03edccbf/img/logo.svg"
+    />
+
+    <!-- Twitter card meta tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="CodeTube" />
+    <meta
+      name="twitter:description"
+      content="CodeTube is a blazingly fast && highly- amusing way to level up your programming skills for free"
+    />
+    <meta
+      name="twitter:image"
+      content="https://raw.githubusercontent.com/mohitdebian/CodeTube/a49d50b9d237ce9afbe1595b13e95daa03edccbf/img/logo.svg"
+    />
 
     <link rel="icon" href="/img/logo.svg" type="image/x-icon" />
     <link href="https://fonts.cdnfonts.com/css/cubano" rel="stylesheet" />
@@ -37,6 +50,8 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="/Css/style.css" />
+    <link rel="stylesheet" href="/Css/mb-screen.css" />
+    <link rel="stylesheet" href="/Css/bg-screen.css" />
   </head>
   <body>
     <script src="script.js"></script>
@@ -54,17 +69,23 @@
     </header>
     <hr />
     <section class="one-section">
-      <h2>Learn to Code <span class="fireship-font">faster</span></h2>
-      <p class="description">
-        CodeTube is a <span class="yellow-txt">blazingly</span> fast && highly-
-        <span class="pink-txt">amusing</span> way to level up your programming
-        skills for <span class="yellow-txt">free</span>
-      </p>
+      <div class="head-body">
+        <h2>Learn to Code <span class="fireship-font">faster</span></h2>
+        <p class="description">
+          CodeTube is a <span class="yellow-txt">blazingly</span> fast &&
+          highly- <span class="pink-txt">amusing</span> way to level up your
+          programming skills for <span class="yellow-txt">free</span>
+        </p>
+        <button class="btn-green course-btn" style="cursor: pointer" onclick="myCourse()">
+          START WITH A COURSE
+        </button>
+      </div>
+      <video class="intro" poster="/intro.gif" autoplay src="/"></video>
     </section>
-    <video autoplay poster="/intro.gif" src="/"></video>
+
     <div class="main">
       <div class="content">
-        <button class="btn-green" style="cursor: pointer" onclick="myCourse()">
+        <button class="btn-green mb-course-btn" style="cursor: pointer" onclick="myCourse()">
           START WITH A COURSE
         </button>
         <p class="blog" onclick="myblog()">
@@ -81,10 +102,10 @@
           class="bg-red-500 inline-block text-gray7 px-6 py-4 text-6xl shadow-xl"
         >
           Hard Truth
-        </h2>
-        <br />
+        </h2>        
+        <!-- <br /> -->
         <span class="animate-bounce text-5xl block"> 👇 </span> </a
-      ><br />
+      ><br><br>
       <p class="text-5xl text-gray3 px-4">
         You
         <img-reveal src="/img/sad.gif"
@@ -120,6 +141,17 @@
       });
     </script>
 
-<script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="mohitdebian" data-description="Support me on Buy me a coffee!" data-message="Donate to sustain free access for learners on our website." data-color="#FF5F5F" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
+    <script
+      data-name="BMC-Widget"
+      data-cfasync="false"
+      src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
+      data-id="mohitdebian"
+      data-description="Support me on Buy me a coffee!"
+      data-message="Donate to sustain free access for learners on our website."
+      data-color="#FF5F5F"
+      data-position="Right"
+      data-x_margin="18"
+      data-y_margin="18"
+    ></script>
   </body>
 </html>

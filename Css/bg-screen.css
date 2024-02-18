@@ -1,0 +1,69 @@
+@media screen and (min-width: 824px) {
+  body {
+    /* background-color: black; */
+    display: flex;
+    flex-direction: column;
+  }
+
+  header {
+    width: 100%;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 700;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    overflow: hidden;
+  }
+
+  section {
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: row;
+  }
+
+
+  video {
+    margin-top: 3%;
+    width: 50%;
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-right: 0;
+  }
+
+  .head-body{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  h2{
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  .mb-course-btn{
+    display: none;
+  }
+
+  .bg-red-500 {
+    margin-top: 0;
+    --tw-bg-opacity: 1;
+    background-color: rgb(239 68 68 / var(--tw-bg-opacity));
+  }
+
+  .animate-bounce{
+    margin-top: 0;
+  }
+
+  .blog{
+    font-size: 5vh;
+  }
+}
