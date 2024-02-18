@@ -277,9 +277,9 @@ video {
   display: inline-block;
 }
 
-.mb-course-btn{
+/* .mb-course-btn{
   display: none;
-}
+} */
 
 @keyframes bounce {
   0%,
