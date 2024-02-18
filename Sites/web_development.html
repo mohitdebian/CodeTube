@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CodeTube</title>
+    <link href="https://fonts.cdnfonts.com/css/cubano" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/Css/web_dev.css" />
+  </head>
+  <body>
+    <script src="../script.js"></script>
+    <header>
+      <span style="cursor: pointer" class="brand" onclick="myHome ()"
+        >CodeTube</span
+      >
+      <div class="search-bar">
+        <button class="course" onclick="myCourse()">Learn Now 🔥</button>
+      </div>
+      <div id="searchResults"></div>
+      <div class="logo-container">
+        <img src="/img/logo.svg" class="logo" alt="" />
+      </div>
+    </header>
+    <hr />
+    <section class="one-section">
+      <h2>
+        <span class="fireship-font">Learn </span>WEB DEVELOPMENT
+        <span class="fireship-font"></span>
+      </h2>
+      <p class="description">
+        We'll start <span class="yellow-txt">this course</span> with <br /><span
+          class="pink-txt"
+          >html and css</span
+        >
+      </p>
+    </section>
+    <!-- <video controls src="/video.mp4"></video> -->
+    <!-- <div class="main">
+      <div class="content">
+        <button class="btn-green">START HERE</button>
+      </div>
+      <div class="content">
+        <button class="btn-green" onclick="myScript()">JavaScript</button>
+      </div>
+    </div> -->
+
+    <!-- card -->
+    <div class="all-cards">
+      <!-- <img src="/img/thumbnail.jpg" alt="" class="thumbnail"> -->
+      <iframe
+        class="thumbnail"
+        src="https://www.youtube.com/embed/HGTJBPNC-Gw?si=E-18hCHynZ2moxRB"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+        height="80%"
+      ></iframe>
+      <!-- <video
+        class="lecture"
+        controls
+        poster="/img/html_css.jpg"
+        src="/lectures/web_dev.mp4"
+      ></video> -->
+    </div>
+    <div class="content">
+      <button class="btn-green" style="cursor: pointer" onclick="next()">
+        NEXT
+      </button>
+    </div>
+    <!-- Download Notes -->
+
+    <p class="description-2"  id="next">
+      Congratulations 🔥 on reaching this point in your programming journey!
+      Now, we're set to delve into the exciting world of JavaScript.
+    </p>
+    <hr />
+    <p class="description">
+      Next we'll <span class="yellow-txt">move ahead with </span> <br /><span
+        class="pink-txt"
+        >javascript</span
+      >
+    </p>
+    <!-- <div class="all-cards" id="next"> -->
+    <!-- <video class="lecture" controls poster="/img/javascript.png" src="/lectures/web_dev_L2.mp4"></video> -->
+    <div class="all-cards">
+      <iframe
+        class="thumbnail"
+        src="https://www.youtube.com/embed/lfmg-EJ8gm4?si=EqrNlM1ulOrUe3z3"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+        height="80%"
+      ></iframe>
+    </div>
+    <!-- </div> -->
+    <div class="empty"></div>
+  </body>
+</html>

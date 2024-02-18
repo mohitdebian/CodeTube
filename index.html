@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CodeTube</title>
+    <link href="https://fonts.cdnfonts.com/css/cubano" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/Css/style.css" />
+  </head>
+  <body>
+    <script src="script.js"></script>
+    <header>
+      <span style="cursor: pointer" class="brand" onclick="myHome ()"
+        >CodeTube</span
+      >
+      <div class="search-bar">
+        <button class="course" onclick="myCourse()">Learn Now 🔥</button>
+      </div>
+      <div id="searchResults"></div>
+      <div class="logo-container">
+        <img src="/img/logo.svg" class="logo" alt="" />
+      </div>
+    </header>
+    <hr />
+    <section class="one-section">
+      <h2>Learn to Code <span class="fireship-font">faster</span></h2>
+      <p class="description">
+        CodeTube is a <span class="yellow-txt">blazingly</span> fast && highly-
+        <span class="pink-txt">amusing</span> way to level up your programming
+        skills for <span class="yellow-txt">free</span>
+      </p>
+    </section>
+    <video controls src="/video.mp4"></video>
+    <div class="main">
+      <div class="content">
+        <button class="btn-green" style="cursor: pointer;" onclick="myCourse()">START WITH A COURSE</button>
+        <p class="blog" onclick="myblog()">Read our <span class="fireship-font">blog</span></p>
+      </div>
+      <!-- <div class="content">
+        <button class="btn-green" onclick="myScript()">JavaScript</button>
+      </div> -->
+    </div>
+    <div class="truth">
+      <a href="#truth" class="no-underline">
+        <h2
+          class="bg-red-500 inline-block text-gray7 px-6 py-4 text-6xl shadow-xl"
+        >
+          Hard Truth
+        </h2>
+        <br />
+        <span class="animate-bounce text-5xl block"> 👇 </span> </a
+      ><br />
+      <p class="text-5xl text-gray3 px-4">
+        You
+        <img-reveal src="/img/sad.gif"
+          ><span class="text-red-500 animate-pulse font-display"
+            >can't</span
+          ></img-reveal
+        >
+        learn to code by watching videos
+      </p>
+      <br /><br id="truth" />
+    </div>
+    <p class="author" onclick="myblog()">Made by <span class="fireship-font">Mohit singh</span></p>
+  </body>
+</html>
