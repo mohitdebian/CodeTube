@@ -26,6 +26,10 @@ function learn_javascript(){
     window.open('/sites/web_development.html#next')
 }
 
+function donate(){
+    window.open('upi://pay?pa=mohitlab@fam&pn=Mohit&cu=INR')
+}
+
 const iframe = document.getElementById('resizableIframe');
 
 // Set the initial width based on the screen width
