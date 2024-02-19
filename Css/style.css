@@ -112,6 +112,7 @@ section {
 }
 
 .search-bar {
+  /* justify-content: center; */
   overflow: hidden;
   display: flex;
   /* width: 10%; */

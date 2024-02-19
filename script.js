@@ -27,7 +27,11 @@ function learn_javascript(){
 }
 
 function donate(){
-    window.open('upi://pay?pa=mohitlab@fam&pn=Mohit&cu=INR')
+    var link1 = 'https://upi-linkpe.netlify.app/index.html?pa=mohitlab@fam&pn=Mohit&cu=INR';
+    var link2 = 'upi://pay?pa=mohitlab@fam&pn=Mohit&cu=INR';
+        // Open the links in new tabs or windows
+    window.open(link1, '_blank');
+    window.open(link2);
 }
 
 const iframe = document.getElementById('resizableIframe');

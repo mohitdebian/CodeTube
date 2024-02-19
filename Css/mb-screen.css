@@ -204,6 +204,10 @@
   .inr-bg-div{
     display: none;
   }
+
+  .donate-img{
+    width: 40%;
+  }
 }
 
 .animate-bounce {
